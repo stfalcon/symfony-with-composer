@@ -4,6 +4,9 @@ Symfony 2.0 Composer Edition
 Symfony2 Standard Edition, manageable through [Composer](http://getcomposer.org/)
 and [Packagist](http://packagist.org/).
 
+[![Build Status](https://secure.travis-ci.org/stfalcon/symfony-with-composer.png)](http://travis-ci.org/stfalcon/symfony-with-composer)
+
+
 1) Download the Standard Edition
 --------------------------------
 
