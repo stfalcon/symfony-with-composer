@@ -5,6 +5,12 @@ use Symfony\Component\Config\Loader\LoaderInterface;
 
 class AppKernel extends Kernel
 {
+
+    /**
+     * Register bundles
+     *
+     * @return array
+     */
     public function registerBundles()
     {
         $bundles = array(
