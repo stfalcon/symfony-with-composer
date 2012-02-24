@@ -23,7 +23,10 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
+
             new Knp\Bundle\ConsoleAutocompleteBundle\KnpConsoleAutocompleteBundle(),
+            new MtHamlBundle\MtHamlBundle(),
+
             new Application\Bundle\DefaultBundle\ApplicationDefaultBundle(),
         );
 
