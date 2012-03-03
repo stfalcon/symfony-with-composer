@@ -4,7 +4,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
 
-        {% stylesheets 'css/style.css' filter='yui_css' output='cache/css/*.css' %}
+
+        {#{% stylesheets 'css/style.css' filter='yui_css' output='cache/css/*.css' %}#}
+        {% stylesheets 'css/style.less' filter='less' output='cache/css/*.css' %}
             <link rel="stylesheet" type="text/css" media="screen" href="{{ asset_url }}" />
         {% endstylesheets %}
 
