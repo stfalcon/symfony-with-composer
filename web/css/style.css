@@ -2,3 +2,7 @@ body {
     color: #444;
     background: #eee;
 }
+
+body:after {
+    content:"PS. And with plain css :)";
+}
