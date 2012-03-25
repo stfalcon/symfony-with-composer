@@ -26,6 +26,7 @@ class AppKernel extends Kernel
             new JMS\AopBundle\JMSAopBundle(),
 
             new MtHamlBundle\MtHamlBundle(),
+            new Doctrine\Bundle\MongoDBBundle\DoctrineMongoDBBundle(),
 
             new Application\Bundle\DefaultBundle\ApplicationDefaultBundle(),
         );

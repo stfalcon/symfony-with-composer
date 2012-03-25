@@ -16,7 +16,8 @@
         "sensio/distribution-bundle": "dev-master",
         "jms/security-extra-bundle": "dev-master",
 
-        "mthaml/mthaml-bundle":    "dev-master"
+        "mthaml/mthaml-bundle": "dev-master",
+        "doctrine/mongodb-odm-bundle": "dev-master"
     },
 
     "autoload": {
